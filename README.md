@@ -33,25 +33,10 @@ aliens or player.
 
 ![Space Invaders](http://imgur.com/sXBK1Dk.png)
 
-### Game Setup
-
-The game must start with five rows of eleven aliens. The number of defense
-bunkers should be eight. The player starts off with three lives.
-
 ### Scoring
 
 Destroying a regular space invader should award 10 points.
 Destroying a mystery ship should award 100 points.
-
-### Level Mechanism
-
-Your implementation of this game should have a mechanism whereby the game
-increases in difficulty over time. The reccommended way of doing this is
-to have levels. The level of the game increases after a certain number
-of enemies are cleared. Each level should cause the space invaders to move
-at a faster rate than at the previous level. If all enemies are cleared,
-a new wave should appear, optionally restoring the defense bunkers.
-
 
 ## Build System
 
